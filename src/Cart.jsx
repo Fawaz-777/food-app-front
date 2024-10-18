@@ -38,7 +38,7 @@ export default function Cart() {
       </ul>
       <p className="cart-total">Total: ${cartTotal.toFixed(2)}</p>
       <p className="modal-actions">
-        <Button textOnly onClick={handleClose}>Close</Button>
+        <Button  onClick={handleClose}>Close</Button>
       {cartCtx.items.length>0 &&(<Button onClick={handleGoToCheckout}>Go to Checkout</Button>)}  
       </p>
     </Modal>

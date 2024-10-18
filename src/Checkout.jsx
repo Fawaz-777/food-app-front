@@ -74,7 +74,7 @@ export default function Checkout() {
                     <Input label="City" type="text" id="city" />
                 </div>
                 <p className="modal-actions">
-                    <Button onClick={handleBack} type="button" textOnly>
+                    <Button onClick={handleBack} type="button" >
                         back
                     </Button>
                     <Button type="submit" onClick={handleClose}>Submit order</Button>
